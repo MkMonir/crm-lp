@@ -116,7 +116,7 @@ export default function Hero() {
                       New Lead
                     </div>
                     <div className="text-sm font-bold text-slate-900 dark:text-white">
-                      $12,400 Deal
+                      $10,400 Deal
                     </div>
                   </div>
                 </div>
