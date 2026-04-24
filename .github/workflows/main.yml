@@ -25,9 +25,7 @@ jobs:
         run: npm run build
 
       - name: List build files
-        run: |
-           mkdir dist
-           ls -la dist/
+        run:  ls -la dist/
 
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
